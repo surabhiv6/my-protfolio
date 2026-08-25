@@ -23,7 +23,7 @@
   object-fit: cover;
   border-radius: 50%;
   border: 6px solid var(--accent);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(165, 88, 16, 0.15);
 }
  
 .about-copy h1 {
