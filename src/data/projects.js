@@ -1,20 +1,8 @@
-export const categories = ['all', 'web', 'Arduino UNO', 'AUTH'];
+export const categories = ['all', 'web', 'arduino'];
 
 export const projectsData = [
   {
     id: 1,
-    title: 'MERN Todo App',
-    description: 'Task manager with JWT auth',
-    longDesc:
-      'A full-featured todo application with user registration, login, and task management using MongoDB, Express, React, and Node.js.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'auth',
-    featured: false,
-    liveUrl: '#',
-    githubUrl: '#'
-  },
-  {
-    id: 2,
     title: 'Portfolio Website',
     description: 'Personal developer portfolio',
     longDesc:
@@ -26,7 +14,7 @@ export const projectsData = [
     githubUrl: '#'
   },
   {
-    id: 3,
+    id: 2,
     title: 'Habit Tracker',
     description: 'Daily habit tracking app',
     longDesc:
@@ -38,12 +26,12 @@ export const projectsData = [
     githubUrl: '#'
   }
    {
-    id: 4,
+    id: 3,
     title: 'Automatic road accident detection',
     description: 'Arduino based project and using IoT based also',
     longDesc:
-      'A MERN-based habit tracker allowing users to create habits, track daily progress, and visualize streaks over time.',
-    tech: ['Arduino UNO', 'Express', 'React', 'Node.js'],
+      'An IoT and Arduino-based safety system designed to automatically detect road accident and send alert notification.',
+    tech: ['Arduino UNO', 'IoT', 'Sensors'],
     category: 'Arduino UNO',
     featured: false,
     liveUrl: '#',
