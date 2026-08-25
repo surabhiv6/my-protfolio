@@ -1,7 +1,7 @@
 import React from 'react'
 import'./SkillCard.css'
 function SkillCard({name, level, icon}) {
-    const levelPercent = {Beginner: 33, Intermediate: 66, Advanced: 90}
+    const levelPercent = {Beginner}
     const pct = levelPercent [level] || 50;
   return (
     <div className='skill-card'>
