@@ -1,32 +1,8 @@
-export const categories = ['all', 'web', 'fullstack', 'auth'];
+export const categories = ['all', 'web', 'Audino UNO', 'AUTH'];
 
 export const projectsData = [
   {
     id: 1,
-    title: 'BookMyShow Clone',
-    description: 'Full-stack movie ticket booking platform',
-    longDesc:
-      'A MERN stack clone of BookMyShow with movie listings, seat selection, booking history, and user authentication.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'fullstack',
-    featured: true,
-    liveUrl: '#',
-    githubUrl: '#'
-  },
-  {
-    id: 2,
-    title: 'React + Spring Boot App',
-    description: 'Full-stack application with REST APIs',
-    longDesc:
-      'A responsive web app built with React frontend and Spring Boot backend, featuring RESTful APIs, CRUD operations, and secure authentication.',
-    tech: ['React', 'Spring Boot', 'Java', 'REST API'],
-    category: 'fullstack',
-    featured: true,
-    liveUrl: '#',
-    githubUrl: '#'
-  },
-  {
-    id: 3,
     title: 'MERN Todo App',
     description: 'Task manager with JWT auth',
     longDesc:
@@ -38,7 +14,7 @@ export const projectsData = [
     githubUrl: '#'
   },
   {
-    id: 4,
+    id: 2,
     title: 'Portfolio Website',
     description: 'Personal developer portfolio',
     longDesc:
@@ -50,7 +26,7 @@ export const projectsData = [
     githubUrl: '#'
   },
   {
-    id: 5,
+    id: 3,
     title: 'Habit Tracker',
     description: 'Daily habit tracking app',
     longDesc:
@@ -61,4 +37,16 @@ export const projectsData = [
     liveUrl: '#',
     githubUrl: '#'
   }
+   {
+    id: 4,
+    title: 'Automatic road accident detection',
+    description: 'Audino based project',
+    longDesc:
+      'A MERN-based habit tracker allowing users to create habits, track daily progress, and visualize streaks over time.',
+    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
+    category: 'Audino UNO',
+    featured: false,
+    liveUrl: '#',
+    githubUrl: '#'
+   }
 ];
