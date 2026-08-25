@@ -1,4 +1,4 @@
-export const categories = ['all', 'web', 'Audino UNO', 'AUTH'];
+export const categories = ['all', 'web', 'Arduino UNO', 'AUTH'];
 
 export const projectsData = [
   {
@@ -40,11 +40,11 @@ export const projectsData = [
    {
     id: 4,
     title: 'Automatic road accident detection',
-    description: 'Audino based project',
+    description: 'Arduino based project and using IoT based also',
     longDesc:
       'A MERN-based habit tracker allowing users to create habits, track daily progress, and visualize streaks over time.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'Audino UNO',
+    tech: ['Arduino UNO', 'Express', 'React', 'Node.js'],
+    category: 'Arduino UNO',
     featured: false,
     liveUrl: '#',
     githubUrl: '#'
