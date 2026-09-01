@@ -3,11 +3,13 @@ import './AboutSection.css';
 function AboutSection() {
   return (
     <section id='about' className='about-section'>
-      <div className='about-wrapper container'>
-        
+      <div className='about-wrapper'>
+        <div className='about-image'>
+          <img src='/WhatsApp Image 2023-10-10 at 12.34.56 AM.jpeg' alt='Surabhi V' />
+        </div>
         <div className='about-copy'>
           <h1>About Me</h1>
-          <p>Hi! I'm Surabhi V , I am a Computer Science Student passionate about technology and coding , I enjoy learning new skills and creating creative projects I am always excited to explore new opportunities and grow as a developer.</p>
+          <p>Hi! I'm Surabhi V, a Computer Science Engineering student constantly learning and building fast, accessible web experiences.</p>
         </div>
       </div>
     </section>
